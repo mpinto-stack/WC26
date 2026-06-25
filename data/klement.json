@@ -1,0 +1,290 @@
+{
+  "Mexico": {
+    "gdpPc": 14000,
+    "populationM": 129.0,
+    "avgTempC": 21.0,
+    "culture": 76
+  },
+  "South Africa": {
+    "gdpPc": 7000,
+    "populationM": 62.0,
+    "avgTempC": 17.0,
+    "culture": 62
+  },
+  "South Korea": {
+    "gdpPc": 35000,
+    "populationM": 52.0,
+    "avgTempC": 12.0,
+    "culture": 78
+  },
+  "Czechia": {
+    "gdpPc": 30000,
+    "populationM": 11.0,
+    "avgTempC": 9.0,
+    "culture": 65
+  },
+  "Canada": {
+    "gdpPc": 53000,
+    "populationM": 40.0,
+    "avgTempC": 5.0,
+    "culture": 68
+  },
+  "Bosnia and Herzegovina": {
+    "gdpPc": 9000,
+    "populationM": 3.2,
+    "avgTempC": 11.0,
+    "culture": 58
+  },
+  "Qatar": {
+    "gdpPc": 80000,
+    "populationM": 2.8,
+    "avgTempC": 29.0,
+    "culture": 50
+  },
+  "Switzerland": {
+    "gdpPc": 93000,
+    "populationM": 8.9,
+    "avgTempC": 8.0,
+    "culture": 74
+  },
+  "Brazil": {
+    "gdpPc": 11000,
+    "populationM": 203.0,
+    "avgTempC": 25.0,
+    "culture": 98
+  },
+  "Morocco": {
+    "gdpPc": 3900,
+    "populationM": 37.0,
+    "avgTempC": 19.0,
+    "culture": 75
+  },
+  "Haiti": {
+    "gdpPc": 1700,
+    "populationM": 11.5,
+    "avgTempC": 26.0,
+    "culture": 42
+  },
+  "Scotland": {
+    "gdpPc": 42000,
+    "populationM": 5.4,
+    "avgTempC": 8.0,
+    "culture": 77
+  },
+  "USA": {
+    "gdpPc": 80000,
+    "populationM": 341.0,
+    "avgTempC": 13.0,
+    "culture": 80
+  },
+  "Paraguay": {
+    "gdpPc": 6000,
+    "populationM": 6.9,
+    "avgTempC": 23.0,
+    "culture": 63
+  },
+  "Australia": {
+    "gdpPc": 65000,
+    "populationM": 27.0,
+    "avgTempC": 21.0,
+    "culture": 72
+  },
+  "Turkey": {
+    "gdpPc": 13000,
+    "populationM": 86.0,
+    "avgTempC": 12.0,
+    "culture": 70
+  },
+  "Germany": {
+    "gdpPc": 54000,
+    "populationM": 84.0,
+    "avgTempC": 9.0,
+    "culture": 95
+  },
+  "Curacao": {
+    "gdpPc": 22000,
+    "populationM": 0.16,
+    "avgTempC": 28.0,
+    "culture": 38
+  },
+  "Ivory Coast": {
+    "gdpPc": 2600,
+    "populationM": 31.0,
+    "avgTempC": 26.0,
+    "culture": 68
+  },
+  "Ecuador": {
+    "gdpPc": 6600,
+    "populationM": 18.0,
+    "avgTempC": 22.0,
+    "culture": 70
+  },
+  "Netherlands": {
+    "gdpPc": 62000,
+    "populationM": 18.0,
+    "avgTempC": 10.0,
+    "culture": 90
+  },
+  "Japan": {
+    "gdpPc": 34000,
+    "populationM": 124.0,
+    "avgTempC": 12.0,
+    "culture": 86
+  },
+  "Sweden": {
+    "gdpPc": 56000,
+    "populationM": 10.5,
+    "avgTempC": 4.0,
+    "culture": 78
+  },
+  "Tunisia": {
+    "gdpPc": 4300,
+    "populationM": 12.4,
+    "avgTempC": 20.0,
+    "culture": 67
+  },
+  "Belgium": {
+    "gdpPc": 53000,
+    "populationM": 11.8,
+    "avgTempC": 10.0,
+    "culture": 84
+  },
+  "Egypt": {
+    "gdpPc": 3900,
+    "populationM": 114.0,
+    "avgTempC": 23.0,
+    "culture": 82
+  },
+  "Iran": {
+    "gdpPc": 4700,
+    "populationM": 89.0,
+    "avgTempC": 18.0,
+    "culture": 73
+  },
+  "New Zealand": {
+    "gdpPc": 48000,
+    "populationM": 5.3,
+    "avgTempC": 12.0,
+    "culture": 60
+  },
+  "Spain": {
+    "gdpPc": 35000,
+    "populationM": 48.0,
+    "avgTempC": 15.0,
+    "culture": 94
+  },
+  "Cape Verde": {
+    "gdpPc": 4400,
+    "populationM": 0.6,
+    "avgTempC": 24.0,
+    "culture": 48
+  },
+  "Saudi Arabia": {
+    "gdpPc": 33000,
+    "populationM": 36.0,
+    "avgTempC": 28.0,
+    "culture": 66
+  },
+  "Uruguay": {
+    "gdpPc": 22000,
+    "populationM": 3.4,
+    "avgTempC": 17.0,
+    "culture": 88
+  },
+  "France": {
+    "gdpPc": 46000,
+    "populationM": 68.0,
+    "avgTempC": 12.0,
+    "culture": 94
+  },
+  "Senegal": {
+    "gdpPc": 1700,
+    "populationM": 19.0,
+    "avgTempC": 28.0,
+    "culture": 74
+  },
+  "Iraq": {
+    "gdpPc": 5500,
+    "populationM": 45.0,
+    "avgTempC": 22.0,
+    "culture": 52
+  },
+  "Norway": {
+    "gdpPc": 89000,
+    "populationM": 5.6,
+    "avgTempC": 2.0,
+    "culture": 66
+  },
+  "Argentina": {
+    "gdpPc": 13500,
+    "populationM": 46.0,
+    "avgTempC": 16.0,
+    "culture": 96
+  },
+  "Algeria": {
+    "gdpPc": 5200,
+    "populationM": 46.0,
+    "avgTempC": 23.0,
+    "culture": 68
+  },
+  "Austria": {
+    "gdpPc": 56000,
+    "populationM": 9.1,
+    "avgTempC": 8.0,
+    "culture": 72
+  },
+  "Jordan": {
+    "gdpPc": 4600,
+    "populationM": 11.4,
+    "avgTempC": 19.0,
+    "culture": 54
+  },
+  "Portugal": {
+    "gdpPc": 28000,
+    "populationM": 10.4,
+    "avgTempC": 16.0,
+    "culture": 88
+  },
+  "DR Congo": {
+    "gdpPc": 650,
+    "populationM": 112.0,
+    "avgTempC": 25.0,
+    "culture": 50
+  },
+  "Uzbekistan": {
+    "gdpPc": 2300,
+    "populationM": 37.0,
+    "avgTempC": 14.0,
+    "culture": 55
+  },
+  "Colombia": {
+    "gdpPc": 6900,
+    "populationM": 53.0,
+    "avgTempC": 24.0,
+    "culture": 86
+  },
+  "England": {
+    "gdpPc": 52000,
+    "populationM": 57.0,
+    "avgTempC": 10.0,
+    "culture": 96
+  },
+  "Croatia": {
+    "gdpPc": 21500,
+    "populationM": 3.9,
+    "avgTempC": 12.0,
+    "culture": 78
+  },
+  "Ghana": {
+    "gdpPc": 2600,
+    "populationM": 34.0,
+    "avgTempC": 27.0,
+    "culture": 70
+  },
+  "Panama": {
+    "gdpPc": 17500,
+    "populationM": 4.5,
+    "avgTempC": 27.0,
+    "culture": 58
+  }
+}

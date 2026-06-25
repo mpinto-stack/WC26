@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-06-25T08:33:53.466920+00:00",
+  "description": "Dados automáticos para o simulador do Mundial 2026",
+  "sources": {
+    "results": "football-data.org (configurar via GitHub Secrets)",
+    "odds": "The Odds API (configurar via GitHub Secrets)"
+  },
+  "notes": [
+    "Se os JSON não existirem ou falharem, o index.html cai automaticamente para os dados inline.",
+    "actual_groups.json e actual_ko.json são a fonte remota; localStorage só guarda overrides manuais."
+  ]
+}
