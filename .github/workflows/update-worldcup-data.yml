@@ -20,15 +20,6 @@ jobs:
         with:
           node-version: '24'
 
-      - name: Debug paths
-        run: |
-          pwd
-          ls -la
-          echo "--- scripts ---"
-          ls -la scripts || true
-          echo "--- data ---"
-          ls -la data || true
-
       - name: Update JSON data
         env:
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
