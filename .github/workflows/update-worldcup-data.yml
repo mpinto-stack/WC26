@@ -18,7 +18,16 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
+
+      - name: Debug paths
+        run: |
+          pwd
+          ls -la
+          echo "--- scripts ---"
+          ls -la scripts || true
+          echo "--- data ---"
+          ls -la data || true
 
       - name: Update JSON data
         env:
