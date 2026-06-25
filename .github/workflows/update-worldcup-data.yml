@@ -14,12 +14,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '24'
-
       - name: Update JSON data
         env:
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
@@ -29,7 +27,6 @@ jobs:
           ODDS_REGIONS: ${{ vars.ODDS_REGIONS || 'eu' }}
           ODDS_MARKETS: ${{ vars.ODDS_MARKETS || 'h2h' }}
         run: node scripts/updateData.mjs
-
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
