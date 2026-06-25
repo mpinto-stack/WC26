@@ -1,20 +1,19 @@
 {
-  "generatedAt": "2026-06-25T09:35:58.407Z",
-  "version": "v6.0",
-  "footballDataCompetition": "WC",
-  "oddsSportKey": "soccer_fifa_world_cup",
-  "resultsSource": "football-data.org",
-  "oddsSource": "The Odds API",
-  "counts": {
-    "matchesReturnedByFootballData": 104,
-    "oddsEventsReturned": 19,
-    "groupResultsWritten": 49,
-    "koResultsWritten": 0,
-    "slotDatesGroupsWritten": 66,
-    "oddsTeamsWritten": 48
+  "generatedAt": "2026-06-25T09:51:37.089843+00:00",
+  "version": "v6.1",
+  "description": "WC26 simulator with visual refresh, mobile UI, fixed bracket slots and auto-sync",
+  "sources": {
+    "results": "football-data.org",
+    "odds": "The Odds API",
+    "schedule seed": "public World Cup 2026 R32 schedule"
   },
-  "errors": {
-    "results": null,
-    "odds": null
+  "ui": {
+    "visualRefresh": true,
+    "mobileFriendly": true,
+    "bracketSortedByDate": true
+  },
+  "logic": {
+    "fixedOfficialSlots": true,
+    "groupHeadToHeadTiebreak": true
   }
 }

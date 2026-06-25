@@ -1,17 +1,12 @@
-# NOTAS TÉCNICAS — WC26 v2
+# NOTAS TÉCNICAS — WC26 v6.1
 
-## O que foi feito
-- carregamento assíncrono de `data/*.json`
-- merge entre dados remotos e overrides locais do utilizador
-- visual refresh com CSS adicional
-- layout mobile-friendly
-- barra fixa de ações no telemóvel
-- suporte a `slot_dates.json`
-- ordenação visual do mata-mata e do bracket por data/slot
+## Bugs corrigidos
+- emparelhamentos KO já confirmados deixam de variar entre simulações
+- suporte a `slot_matchups.json` para slots oficiais do bracket
+- desempate de grupos com mini-tabela head-to-head antes do fallback global
 
-## Ficheiros de dados
-- `actual_groups.json` → resultados reais de grupos
-- `actual_ko.json` → resultados reais de KO
-- `odds.json` → odds por equipa
-- `meta.json` → timestamp do update
-- `slot_dates.json` → datas dos jogos por slot
+## Ficheiros novos
+- `data/slot_matchups.json` → jogos KO já conhecidos por slot
+
+## Observação
+Ainda não existe uma reimplementação completa da tabela oficial dos terceiros em todos os cenários; no entanto, quando o feed já conhece o jogo oficial do KO, o simulador fixa esse emparelhamento.

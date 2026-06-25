@@ -20,7 +20,4 @@ export const NAME_MAP = {
   "Curaçao": "Curacao",
   "Czech Republic": "Czechia"
 };
-
-export function normalizeTeamName(name) {
-  return NAME_MAP[name] || name;
-}
+export function normalizeTeamName(name) { return NAME_MAP[name] || name; }
