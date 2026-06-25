@@ -1,20 +1,14 @@
 {
-  "generatedAt": "2026-06-25T10:14:44.335Z",
-  "version": "v6.1",
-  "footballDataCompetition": "WC",
-  "oddsSportKey": "soccer_fifa_world_cup",
-  "resultsSource": "football-data.org",
-  "oddsSource": "The Odds API",
-  "counts": {
-    "matchesReturnedByFootballData": 104,
-    "groupResultsWritten": 49,
-    "koResultsWritten": 0,
-    "slotDatesGroupsWritten": 66,
-    "slotMatchupsR32Written": 0,
-    "oddsTeamsWritten": 48
+  "generatedAt": "2026-06-25T10:57:35.887014+00:00",
+  "version": "v7.0",
+  "description": "WC26 v7 broadcast dark + official R32 fixed slot logic",
+  "ui": {
+    "theme": "broadcast-dark",
+    "mobileFriendly": true
   },
-  "errors": {
-    "results": null,
-    "odds": null
+  "logic": {
+    "officialR32Slots": true,
+    "fixedKnownMatchups": true,
+    "groupHeadToHeadMiniTable": true
   }
 }

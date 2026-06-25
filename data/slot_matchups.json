@@ -1,6 +1,47 @@
 {
   "knockout": {
-    "r32": {},
+    "r32": {
+      "0": {
+        "a": "South Africa",
+        "b": "Canada",
+        "utcDate": "2026-06-28T19:00:00Z"
+      },
+      "2": {
+        "a": "Netherlands",
+        "b": "Morocco",
+        "utcDate": "2026-06-29T19:00:00Z"
+      },
+      "3": {
+        "a": "Brazil",
+        "b": "Japan",
+        "utcDate": "2026-06-29T11:00:00Z"
+      },
+      "5": {
+        "a": "Ivory Coast",
+        "b": "Norway",
+        "utcDate": "2026-06-30T11:00:00Z"
+      },
+      "10": {
+        "a": "Portugal",
+        "b": "Ghana",
+        "utcDate": "2026-07-02T18:00:00Z"
+      },
+      "11": {
+        "a": "Spain",
+        "b": "Austria",
+        "utcDate": "2026-07-02T14:00:00Z"
+      },
+      "13": {
+        "a": "Argentina",
+        "b": "Uruguay",
+        "utcDate": "2026-07-03T17:00:00Z"
+      },
+      "15": {
+        "a": "Australia",
+        "b": "Iran",
+        "utcDate": "2026-07-03T13:00:00Z"
+      }
+    },
     "r16": {},
     "qf": {},
     "sf": {},
