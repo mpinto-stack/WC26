@@ -1,20 +1,17 @@
-# Notas técnicas rápidas
+# NOTAS TÉCNICAS — WC26 v2
 
-## O que foi alterado no index.html
-- passou a tentar carregar JSON externos da pasta `data/`
-- mantém fallback para os dados inline do ficheiro original
-- resultados remotos passam a ser a base
-- `localStorage` fica só para overrides locais do utilizador
+## O que foi feito
+- carregamento assíncrono de `data/*.json`
+- merge entre dados remotos e overrides locais do utilizador
+- visual refresh com CSS adicional
+- layout mobile-friendly
+- barra fixa de ações no telemóvel
+- suporte a `slot_dates.json`
+- ordenação visual do mata-mata e do bracket por data/slot
 
-## Ficheiros usados pelo frontend
-- `data/teams.json`
-- `data/groups.json`
-- `data/klement.json`
-- `data/actual_groups.json`
-- `data/actual_ko.json`
-- `data/odds.json`
-- `data/meta.json`
-
-## Observação importante
-O script de update de KO mapeia os jogos por ordem cronológica dentro de cada ronda (`r32`, `r16`, `qf`, `sf`, `third`, `final`).
-Funciona bem para automação prática, mas ainda vale a pena numa próxima fase alinhar o bracket com a tabela oficial dos terceiros.
+## Ficheiros de dados
+- `actual_groups.json` → resultados reais de grupos
+- `actual_ko.json` → resultados reais de KO
+- `odds.json` → odds por equipa
+- `meta.json` → timestamp do update
+- `slot_dates.json` → datas dos jogos por slot

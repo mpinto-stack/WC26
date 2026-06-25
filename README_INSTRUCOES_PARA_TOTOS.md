@@ -1,57 +1,52 @@
-# Mundial 2026 — kit de automação (versão fácil)
+# WC26 v2 — kit completo (visual melhorado + mobile + bracket por data)
 
 ## O que está dentro deste ZIP
-- `index.html` → tua app já preparada para ler JSON automáticos da pasta `data/`
-- `index.original-backup.html` → cópia de segurança do teu HTML original
-- `data/*.json` → dados iniciais
-- `scripts/updateData.mjs` → script que vai buscar resultados reais + odds
-- `scripts/nameMap.mjs` → normalização de nomes de seleções
-- `.github/workflows/update-worldcup-data.yml` → GitHub Action que corre sozinha
+- `index.html` → nova versão com visual melhorado, mobile-friendly e dados externos
+- `index.original-backup.html` → backup do teu HTML original
+- `data/*.json` → dados iniciais para resultados, odds e datas de jogos
+- `scripts/updateData.mjs` → script robusto para atualizar resultados, odds e datas/slots
+- `scripts/nameMap.mjs` → nomes de seleções normalizados sem erros de sintaxe
+- `.github/workflows/update-worldcup-data.yml` → workflow GitHub Actions pronto
 
 ---
 
-## Objetivo
-Depois de montares isto no GitHub:
-1. o GitHub Actions atualiza os ficheiros `data/*.json` automaticamente;
-2. o `index.html` lê esses ficheiros;
-3. deixas de ter de meter os resultados à mão todos os dias.
+# O que muda nesta v2
+## Visual
+- cartões mais modernos
+- sombras e contraste melhores
+- tabs mais limpas e fáceis de usar
+- melhor leitura dos blocos de probabilidades e grupos
+
+## Mobile
+- layout adaptado para telemóvel
+- inputs maiores
+- botões maiores
+- barra fixa no fundo do ecrã com ações rápidas
+
+## Bracket por data
+- o bracket e o editor do mata-mata tentam respeitar sempre a ordem cronológica dos jogos
+- quando houver data remota disponível, o site mostra essa data em cada jogo
+
+## Automação
+- continua a puxar resultados reais
+- continua a atualizar odds
+- agora também guarda `slot_dates.json` com as datas dos jogos para manter a ordem do bracket
 
 ---
 
-## PASSO 0 — antes de começares
-Precisas de:
-- uma conta GitHub
-- o teu repositório do simulador
-- uma API key de `football-data.org`
-- uma API key de `The Odds API`
-
-Se não quiseres já tratar das odds, podes começar só com a key do `football-data.org`.
-
----
+# INSTRUÇÕES PARA TOTOS
 
 ## PASSO 1 — fazer backup
-No teu PC guarda uma cópia do teu ficheiro atual.
+No teu PC guarda uma cópia do repositório atual.
 
-Neste ZIP já tens:
-- `index.original-backup.html`
+## PASSO 2 — substituir os ficheiros
+Substitui no teu repositório estes ficheiros e pastas pelos deste ZIP:
 
-Se algo correr mal, é esse ficheiro que repões.
-
----
-
-## PASSO 2 — meter os ficheiros no repositório
-### Opção mais fácil (web do GitHub)
-1. Abre o teu repositório no GitHub.
-2. Clica em **Add file**.
-3. Clica em **Upload files**.
-4. Arrasta para lá tudo o que está dentro deste ZIP.
-5. Faz commit.
-
-### Estrutura final que deves ter
 ```text
-.github/workflows/update-worldcup-data.yml
+index.html
 scripts/updateData.mjs
 scripts/nameMap.mjs
+.github/workflows/update-worldcup-data.yml
 data/teams.json
 data/groups.json
 data/klement.json
@@ -59,186 +54,90 @@ data/actual_groups.json
 data/actual_ko.json
 data/odds.json
 data/meta.json
-index.html
+data/slot_dates.json
 ```
 
----
+## PASSO 3 — estrutura certa do repo
+A raiz do repositório deve ficar assim:
 
-## PASSO 3 — ativar GitHub Pages (se ainda não estiver)
-1. Vai ao repositório.
-2. **Settings**.
-3. **Pages**.
-4. Em **Source**, escolhe a branch principal (normalmente `main`).
-5. Guarda.
+```text
+.github/
+  workflows/
+    update-worldcup-data.yml
+scripts/
+  updateData.mjs
+  nameMap.mjs
+data/
+  teams.json
+  groups.json
+  klement.json
+  actual_groups.json
+  actual_ko.json
+  odds.json
+  meta.json
+  slot_dates.json
+index.html
+index.original-backup.html
+README_INSTRUCOES_PARA_TOTOS.md
+NOTAS_TECNICAS.md
+```
 
-No fim vais ter um link para o teu site.
+**Não metas tudo dentro de outra pasta extra.**
 
----
+## PASSO 4 — confirmar secrets
+Vai a **Settings → Secrets and variables → Actions** e confirma estes secrets:
 
-## PASSO 4 — criar as Secrets
-Vai a:
-**Settings → Secrets and variables → Actions**
-
-Cria estes secrets:
-
-### Secret 1
-**Name**
 ```text
 FOOTBALL_DATA_API_KEY
-```
-**Value**
-```text
-(a tua chave do football-data.org)
-```
-
-### Secret 2
-**Name**
-```text
 THE_ODDS_API_KEY
 ```
-**Value**
+
+## PASSO 5 — confirmar variables
+Na aba **Variables**, confirma isto:
+
 ```text
-(a tua chave do The Odds API)
+FOOTBALL_DATA_COMPETITION = WC
+ODDS_SPORT_KEY = soccer_fifa_world_cup
+ODDS_REGIONS = eu
+ODDS_MARKETS = h2h
 ```
 
-Se ainda não tiveres a segunda, podes criar depois.
+## PASSO 6 — correr a automação
+1. Vai a **Actions**
+2. Escolhe **Update World Cup 2026 data**
+3. Clica em **Run workflow**
+4. Espera 1 a 2 minutos
+
+## PASSO 7 — abrir o site e testar
+1. Abre o teu GitHub Pages
+2. Faz refresh forte (`Ctrl+F5` ou `Cmd+Shift+R`)
+3. Testa no PC e no telemóvel
 
 ---
 
-## PASSO 5 — criar as Variables (muito importante)
-Vai a:
-**Settings → Secrets and variables → Actions → Variables**
+# Como veres que ficou bem
+## No desktop
+- visual mais moderno
+- cards com melhor contraste
+- navegação mais limpa
 
-Cria estas variables:
+## No telemóvel
+- layout vertical
+- botões maiores
+- barra fixa no fundo com Simular / Grupos / Mata-mata / Resumo
 
-### Variable 1
-**Name**
-```text
-FOOTBALL_DATA_COMPETITION
-```
-**Value**
-```text
-WC
-```
-
-### Variable 2
-**Name**
-```text
-ODDS_SPORT_KEY
-```
-**Value**
-```text
-soccer_fifa_world_cup
-```
-
-### Variable 3
-**Name**
-```text
-ODDS_REGIONS
-```
-**Value**
-```text
-eu
-```
-
-### Variable 4
-**Name**
-```text
-ODDS_MARKETS
-```
-**Value**
-```text
-h2h
-```
+## No bracket
+- jogos ordenados por data quando as datas remotas existem
+- data visível nos jogos do KO
 
 ---
 
-## PASSO 6 — correr a automação pela primeira vez
-1. Vai ao separador **Actions** do repositório.
-2. Escolhe workflow **Update World Cup 2026 data**.
-3. Clica em **Run workflow**.
-4. Espera 1 a 2 minutos.
+# Se alguma coisa correr mal
+## Workflow falha
+Abre **Actions** → step vermelho **Update JSON data** e manda-me o log final.
 
-Se correr bem, o GitHub faz commit automático aos ficheiros dentro de `data/`.
+## Site não muda
+Faz refresh forte ou abre em janela anónima.
 
----
-
-## PASSO 7 — abrir o site
-Depois do workflow acabar:
-1. abre o teu site do GitHub Pages;
-2. faz refresh forte (`Ctrl+F5` no Windows ou `Cmd+Shift+R` no Mac);
-3. corre a simulação.
-
-No painel da esquerda vais ver uma linha nova tipo:
-```text
-Modo auto: JSON remoto ativo · último update ...
-```
-
----
-
-## O que o sistema faz automaticamente
-### Resultados reais
-O script tenta ir buscar todos os jogos do campeonato e preencher:
-- `data/actual_groups.json`
-- `data/actual_ko.json`
-
-### Odds
-O script atualiza:
-- `data/odds.json`
-
-### Metadados
-O script escreve:
-- `data/meta.json`
-
-Esse ficheiro diz quando foi o último update.
-
----
-
-## Se alguma coisa falhar
-### Problema 1 — workflow falha logo
-Abre **Actions** e lê o erro.
-Os erros mais comuns são:
-- API key mal escrita
-- competição errada
-- limite da API
-
-### Problema 2 — site não muda
-Faz refresh forte.
-Se continuar igual:
-- apaga localStorage do site no browser
-- ou abre numa janela anónima
-
-### Problema 3 — nome de equipa não bate certo
-Edita o ficheiro:
-```text
-scripts/nameMap.mjs
-```
-E adiciona o novo nome.
-
----
-
-## Limitações desta primeira versão
-Esta entrega já automatiza bastante, mas há 3 coisas que podes querer melhorar a seguir:
-1. desempate oficial `head-to-head`
-2. tabela oficial de emparelhamento dos melhores terceiros
-3. odds de outrights (campeão / vencedor de grupo) se arranjares um feed melhor
-
----
-
-## O que eu te recomendo fazer agora
-### mínimo para ficar a funcionar hoje
-1. fazer upload de tudo
-2. meter a secret `FOOTBALL_DATA_API_KEY`
-3. correr o workflow manualmente
-4. abrir o site e testar
-
-Se quiseres só automação de resultados, isso já chega para começares.
-
----
-
-## Teste rápido de sucesso
-Se tudo estiver bem:
-- o workflow fica verde no GitHub;
-- os ficheiros `data/*.json` mudam;
-- o site mostra o timestamp remoto;
-- os jogos reais aparecem preenchidos no simulador sem os meteres à mão.
+## Nomes de equipas não batem certo
+Edita `scripts/nameMap.mjs`.

@@ -1,18 +1,14 @@
 {
-  "generatedAt": "2026-06-25T09:16:33.558Z",
-  "footballDataCompetition": "WC",
-  "oddsSportKey": "soccer_fifa_world_cup",
-  "resultsSource": "football-data.org",
-  "oddsSource": "The Odds API",
-  "counts": {
-    "matchesReturnedByFootballData": 104,
-    "oddsEventsReturned": 19,
-    "groupResultsWritten": 49,
-    "koResultsWritten": 0,
-    "oddsTeamsWritten": 48
+  "generatedAt": "2026-06-25T09:31:55.612489+00:00",
+  "version": "v6.0",
+  "description": "World Cup 2026 Simulator - data layer for auto updates",
+  "sources": {
+    "results": "football-data.org (via GitHub Actions)",
+    "odds": "The Odds API (via GitHub Actions)"
   },
-  "errors": {
-    "results": null,
-    "odds": null
+  "ui": {
+    "visualRefresh": true,
+    "mobileFriendly": true,
+    "bracketSortedByDate": true
   }
 }
