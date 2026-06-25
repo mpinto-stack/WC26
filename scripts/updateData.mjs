@@ -39,8 +39,7 @@ async function readJson(name, fallback = null) {
 
 async function writeJson(name, value) {
   const p = path.join(DATA_DIR, name);
-  await fs.writeFile(p, JSON.stringify(value, null, 2) + '
-', 'utf8');
+  await fs.writeFile(p, JSON.stringify(value, null, 2) + '\n', 'utf8');
 }
 
 function buildGroupSchedule(groups) {
