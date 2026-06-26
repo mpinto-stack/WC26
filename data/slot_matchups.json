@@ -1,22 +1,6 @@
 {
   "knockout": {
-    "r32": {
-      "0": {
-        "a": "South Africa",
-        "b": "Canada",
-        "utcDate": "2026-06-28T19:00:00Z"
-      },
-      "1": {
-        "a": "Brazil",
-        "b": "Japan",
-        "utcDate": "2026-06-29T17:00:00Z"
-      },
-      "3": {
-        "a": "Netherlands",
-        "b": "Morocco",
-        "utcDate": "2026-06-30T01:00:00Z"
-      }
-    },
+    "r32": {},
     "r16": {},
     "qf": {},
     "sf": {},

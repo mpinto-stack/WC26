@@ -234,36 +234,6 @@
     "ga": 3,
     "gb": 0
   },
-  "A|4": {
-    "played": true,
-    "ga": 3,
-    "gb": 0
-  },
-  "A|5": {
-    "played": true,
-    "ga": 1,
-    "gb": 0
-  },
-  "E|4": {
-    "played": true,
-    "ga": 1,
-    "gb": 2
-  },
-  "E|5": {
-    "played": true,
-    "ga": 0,
-    "gb": 2
-  },
-  "F|4": {
-    "played": true,
-    "ga": 3,
-    "gb": 1
-  },
-  "F|5": {
-    "played": true,
-    "ga": 1,
-    "gb": 1
-  },
   "D|4": {
     "played": true,
     "ga": 2,
