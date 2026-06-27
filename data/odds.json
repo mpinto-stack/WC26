@@ -8,8 +8,8 @@
     "optaWin": 0.06,
     "espnOutright": "1000-1",
     "espnQualify": "+120",
-    "independent": "4.43-1",
-    "oddschecker": "4.43-1"
+    "independent": "4.44-1",
+    "oddschecker": "4.44-1"
   },
   "South Korea": {
     "optaWin": 0.39,
@@ -25,15 +25,15 @@
     "optaWin": 0.44,
     "espnOutright": "200-1",
     "espnQualify": "-750",
-    "independent": "0.73-1",
-    "oddschecker": "0.73-1"
+    "independent": "0.72-1",
+    "oddschecker": "0.72-1"
   },
   "Bosnia and Herzegovina": {
     "optaWin": 0.24,
     "espnOutright": "500-1",
     "espnQualify": "-240",
-    "independent": "7.75-1",
-    "oddschecker": "7.75-1"
+    "independent": "7.70-1",
+    "oddschecker": "7.70-1"
   },
   "Qatar": {
     "optaWin": 0.06,
@@ -56,8 +56,8 @@
     "optaWin": 1.82,
     "espnOutright": "50-1",
     "espnQualify": "-1000",
-    "oddschecker": "2.69-1",
-    "independent": "2.69-1"
+    "oddschecker": "2.76-1",
+    "independent": "2.76-1"
   },
   "Haiti": {
     "optaWin": 0,
@@ -80,8 +80,8 @@
     "optaWin": 0.53,
     "espnOutright": "300-1",
     "espnQualify": "-205",
-    "independent": "7.47-1",
-    "oddschecker": "7.47-1"
+    "independent": "7.75-1",
+    "oddschecker": "7.75-1"
   },
   "Australia": {
     "optaWin": 0.38,
@@ -101,8 +101,8 @@
     "optaWin": 5.43,
     "espnOutright": "14-1",
     "espnQualify": "-10000",
-    "oddschecker": "0.38-1",
-    "independent": "0.38-1"
+    "oddschecker": "0.36-1",
+    "independent": "0.36-1"
   },
   "Curacao": {
     "optaWin": 0,
@@ -129,22 +129,22 @@
     "optaWin": 3.8,
     "espnOutright": "20-1",
     "espnQualify": "-1400",
-    "oddschecker": "1.16-1",
-    "independent": "1.16-1"
+    "oddschecker": "1.13-1",
+    "independent": "1.13-1"
   },
   "Japan": {
     "optaWin": 1.4,
     "espnOutright": "65-1",
     "espnQualify": "-400",
-    "oddschecker": "4.23-1",
-    "independent": "4.23-1"
+    "oddschecker": "4.21-1",
+    "independent": "4.21-1"
   },
   "Sweden": {
     "optaWin": 0.47,
     "espnOutright": "120-1",
     "espnQualify": "-230",
-    "independent": "9.84-1",
-    "oddschecker": "9.84-1"
+    "independent": "9.67-1",
+    "oddschecker": "9.67-1"
   },
   "Tunisia": {
     "optaWin": 0.1,
@@ -164,8 +164,8 @@
     "optaWin": 0.33,
     "espnOutright": "300-1",
     "espnQualify": "-340",
-    "independent": "1.50-1",
-    "oddschecker": "1.50-1"
+    "independent": "1.49-1",
+    "oddschecker": "1.49-1"
   },
   "Iran": {
     "optaWin": 0.2,
@@ -192,8 +192,8 @@
     "optaWin": 0.05,
     "espnOutright": "1000-1",
     "espnQualify": "+200",
-    "independent": "18.69-1",
-    "oddschecker": "18.69-1"
+    "independent": "18.43-1",
+    "oddschecker": "18.43-1"
   },
   "Saudi Arabia": {
     "optaWin": 0.05,
@@ -248,22 +248,22 @@
     "optaWin": 0.24,
     "espnOutright": "350-1",
     "espnQualify": "-310",
-    "independent": "3.21-1",
-    "oddschecker": "3.21-1"
+    "independent": "2.86-1",
+    "oddschecker": "2.86-1"
   },
   "Austria": {
     "optaWin": 0.53,
     "espnOutright": "150-1",
     "espnQualify": "-500",
-    "independent": "1.98-1",
-    "oddschecker": "1.98-1"
+    "independent": "2.23-1",
+    "oddschecker": "2.23-1"
   },
   "Jordan": {
     "optaWin": 0.04,
     "espnOutright": "2500-1",
     "espnQualify": "+350",
-    "independent": "17.10-1",
-    "oddschecker": "17.10-1"
+    "independent": "19.06-1",
+    "oddschecker": "19.06-1"
   },
   "Portugal": {
     "optaWin": 6.82,
@@ -276,49 +276,49 @@
     "optaWin": 0.09,
     "espnOutright": "1000-1",
     "espnQualify": "Even",
-    "independent": "0.60-1",
-    "oddschecker": "0.60-1"
+    "independent": "0.69-1",
+    "oddschecker": "0.69-1"
   },
   "Uzbekistan": {
     "optaWin": 0.04,
     "espnOutright": "1500-1",
     "espnQualify": "+200",
-    "independent": "4.60-1",
-    "oddschecker": "4.60-1"
+    "independent": "4.17-1",
+    "oddschecker": "4.17-1"
   },
   "Colombia": {
     "optaWin": 2.03,
     "espnOutright": "40-1",
     "espnQualify": "-1000",
-    "independent": "2.60-1",
-    "oddschecker": "2.60-1"
+    "independent": "2.62-1",
+    "oddschecker": "2.62-1"
   },
   "England": {
     "optaWin": 11.36,
     "espnOutright": "+700",
     "espnQualify": "-10000",
-    "oddschecker": "0.16-1",
-    "independent": "0.16-1"
+    "oddschecker": "0.15-1",
+    "independent": "0.15-1"
   },
   "Croatia": {
     "optaWin": 1.5,
     "espnOutright": "90-1",
     "espnQualify": "-500",
-    "independent": "0.89-1",
-    "oddschecker": "0.89-1"
+    "independent": "0.90-1",
+    "oddschecker": "0.90-1"
   },
   "Ghana": {
     "optaWin": 0.23,
     "espnOutright": "300-1",
     "espnQualify": "-155",
-    "independent": "4.13-1",
-    "oddschecker": "4.13-1"
+    "independent": "4.18-1",
+    "oddschecker": "4.18-1"
   },
   "Panama": {
     "optaWin": 0.09,
     "espnOutright": "1000-1",
     "espnQualify": "+220",
-    "independent": "15.93-1",
-    "oddschecker": "15.93-1"
+    "independent": "16.54-1",
+    "oddschecker": "16.54-1"
   }
 }
