@@ -283,5 +283,15 @@
     "played": true,
     "ga": 5,
     "gb": 0
+  },
+  "H|4": {
+    "played": true,
+    "ga": 1,
+    "gb": 0
+  },
+  "G|4": {
+    "played": true,
+    "ga": 5,
+    "gb": 1
   }
 }
