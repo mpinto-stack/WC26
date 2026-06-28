@@ -308,5 +308,25 @@
     "played": true,
     "ga": 2,
     "gb": 1
+  },
+  "K|4": {
+    "played": true,
+    "ga": 0,
+    "gb": 0
+  },
+  "K|5": {
+    "played": true,
+    "ga": 3,
+    "gb": 1
+  },
+  "J|4": {
+    "played": true,
+    "ga": 3,
+    "gb": 1
+  },
+  "J|5": {
+    "played": true,
+    "ga": 3,
+    "gb": 3
   }
 }
