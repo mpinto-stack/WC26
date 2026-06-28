@@ -1,1 +1,9 @@
-{}
+{
+  "r32|0": {
+    "played": true,
+    "a": "South Africa",
+    "b": "Canada",
+    "ga": 0,
+    "gb": 1
+  }
+}
