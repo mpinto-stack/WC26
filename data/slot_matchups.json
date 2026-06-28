@@ -11,10 +11,65 @@
         "b": "Japan",
         "utcDate": "2026-06-29T17:00:00Z"
       },
+      "2": {
+        "a": "Germany",
+        "b": "Paraguay",
+        "utcDate": "2026-06-29T20:30:00Z"
+      },
       "3": {
         "a": "Netherlands",
         "b": "Morocco",
         "utcDate": "2026-06-30T01:00:00Z"
+      },
+      "4": {
+        "a": "Ivory Coast",
+        "b": "Norway",
+        "utcDate": "2026-06-30T17:00:00Z"
+      },
+      "5": {
+        "a": "France",
+        "b": "Sweden",
+        "utcDate": "2026-06-30T21:00:00Z"
+      },
+      "6": {
+        "a": "Mexico",
+        "b": "Ecuador",
+        "utcDate": "2026-07-01T01:00:00Z"
+      },
+      "7": {
+        "a": "England",
+        "b": "DR Congo",
+        "utcDate": "2026-07-01T16:00:00Z"
+      },
+      "8": {
+        "a": "Belgium",
+        "b": "Senegal",
+        "utcDate": "2026-07-01T20:00:00Z"
+      },
+      "10": {
+        "a": "Spain",
+        "b": "Austria",
+        "utcDate": "2026-07-02T19:00:00Z"
+      },
+      "11": {
+        "a": "Portugal",
+        "b": "Croatia",
+        "utcDate": "2026-07-02T23:00:00Z"
+      },
+      "12": {
+        "a": "Switzerland",
+        "b": "Algeria",
+        "utcDate": "2026-07-03T03:00:00Z"
+      },
+      "13": {
+        "a": "Australia",
+        "b": "Egypt",
+        "utcDate": "2026-07-03T18:00:00Z"
+      },
+      "15": {
+        "a": "Colombia",
+        "b": "Ghana",
+        "utcDate": "2026-07-04T01:30:00Z"
       }
     },
     "r16": {},

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T04:49:11.859Z",
+  "generatedAt": "2026-06-28T08:28:33.312Z",
   "version": "v7.0",
   "footballDataCompetition": "WC",
   "oddsSportKey": "soccer_fifa_world_cup",
@@ -9,7 +9,7 @@
     "matchesReturnedByFootballData": 104,
     "groupResultsWritten": 66,
     "koResultsWritten": 0,
-    "slotMatchupsR32Written": 3,
+    "slotMatchupsR32Written": 14,
     "oddsTeamsWritten": 48
   },
   "errors": {
