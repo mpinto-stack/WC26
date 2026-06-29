@@ -5,5 +5,12 @@
     "b": "Canada",
     "ga": 0,
     "gb": 1
+  },
+  "r32|1": {
+    "played": true,
+    "a": "Brazil",
+    "b": "Japan",
+    "ga": 2,
+    "gb": 1
   }
 }
