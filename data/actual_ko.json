@@ -12,5 +12,12 @@
     "b": "Japan",
     "ga": 2,
     "gb": 1
+  },
+  "r32|2": {
+    "played": true,
+    "a": "Germany",
+    "b": "Paraguay",
+    "ga": 1,
+    "gb": 1
   }
 }
