@@ -40,5 +40,12 @@
     "b": "Sweden",
     "ga": 3,
     "gb": 0
+  },
+  "r32|6": {
+    "played": true,
+    "a": "Mexico",
+    "b": "Ecuador",
+    "ga": 2,
+    "gb": 0
   }
 }
