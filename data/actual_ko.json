@@ -33,5 +33,12 @@
     "b": "Norway",
     "ga": 1,
     "gb": 2
+  },
+  "r32|5": {
+    "played": true,
+    "a": "France",
+    "b": "Sweden",
+    "ga": 3,
+    "gb": 0
   }
 }
