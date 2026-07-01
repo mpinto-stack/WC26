@@ -54,5 +54,12 @@
     "b": "DR Congo",
     "ga": 2,
     "gb": 1
+  },
+  "r32|8": {
+    "played": true,
+    "a": "Belgium",
+    "b": "Senegal",
+    "ga": 3,
+    "gb": 2
   }
 }
