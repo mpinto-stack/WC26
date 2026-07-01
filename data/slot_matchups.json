@@ -77,6 +77,16 @@
         "a": "Canada",
         "b": "Morocco",
         "utcDate": "2026-07-04T17:00:00Z"
+      },
+      "1": {
+        "a": "Paraguay",
+        "b": "France",
+        "utcDate": "2026-07-04T21:00:00Z"
+      },
+      "2": {
+        "a": "Brazil",
+        "b": "Norway",
+        "utcDate": "2026-07-05T20:00:00Z"
       }
     },
     "qf": {},
