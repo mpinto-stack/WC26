@@ -47,5 +47,12 @@
     "b": "Ecuador",
     "ga": 2,
     "gb": 0
+  },
+  "r32|7": {
+    "played": true,
+    "a": "England",
+    "b": "DR Congo",
+    "ga": 2,
+    "gb": 1
   }
 }
